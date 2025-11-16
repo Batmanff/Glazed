@@ -467,7 +467,7 @@ public class AHSniper extends Module {
 
         // If delay is finished, confirm the purchase
         if (waitingToConfirm && confirmDelayCounter == 0) {
-            mc.interactionManager.clickSlot(handler.syncId, 15, 1, SlotActionType.QUICK_MOVE, mc.player);
+            mc.interactionManager.clickSlot(handler.syncId, 12, 1, SlotActionType.QUICK_MOVE, mc.player);
             waitingForConfirmation = false;
             waitingToConfirm = false;
             itemPickedUp = false;
